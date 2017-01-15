@@ -10,9 +10,9 @@ int ans;
 int main(){
 	inf = fopen("mixin.txt","r");
 	outf = fopen("mixout.txt","w");
-	fscanf(inf,"%d%d",d,q);
-	cout << d,q;
-	ans = int(d/q);
+	fscanf(inf,"%d%d",&d,&q);
+	
+	ans = d/q;
 	if(d%q == 0){
 		fprintf(outf,"%d",ans);
 	}

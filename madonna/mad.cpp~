@@ -19,10 +19,10 @@ int main(){
 			total += t;
 		}
 		else{
-			ans += (s-total);
+			sec += (s-total);
 			total = t;
 		}	
 	}
-	fprintf(outf,"%d",ans);	
+	fprintf(outf,"%d",sec);	
 	return 0;
 }
